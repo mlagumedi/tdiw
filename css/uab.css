@@ -1,1 +1,47 @@
 /* completa */
+/*Títols h1 en darkblue*/
+h1{
+    color: darkblue;
+}
+/*els paràgrafs dins del header tenen la tipografia courier*/
+header p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* el h1 i h3 son estil italic (cursiva)*/
+h1,h3{
+    font-style: italic;
+}
+
+/*cració de la classe fancy que questableix la font Times*/
+.fancy{
+    font-family: Times;
+}
+
+/*els tags headers que tinguin l'atribut fancy, serán de color magenta*/
+header.fancy{
+    color: magenta;
+}
+
+/*els h3 que pertanyin a un header i estiguin dins d'una secció amb la classe statistics seran de color vermell*/
+section.statistics header h3{
+    color: red;
+}
+
+/*Estableix l'estil dels marges de la taula*/
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+p.important{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: aqua;
+}
+
+/*diferencia entre image y img*/
+img{
+    float: left;
+    padding: 0 0 0 10px;
+}
